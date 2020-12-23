@@ -20,23 +20,23 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Link_Wild_Official
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  上庠的秋色，自当更宁静、更包容。
 
 
 ## => Language and Timezone
 ##############################
 lang: zh-cn
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
-
+  Asia/Shanghai
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
   name      : Link_WIld
-  url       :
+  url       : 
   avatar    : # path or url of avatar image (square)
   bio       : Student at Peking Univ. Physics and literature preference. Love life!
   email     : Link_Wild@163.com
@@ -84,14 +84,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: true
-mathjax_autoNumber: true
+mathjax: false
+mathjax_autoNumber: false
 
 ## Mermaid
-mermaid: true
+mermaid: false
 
 ## Chart
-chart: true
+chart: false
 
 
 ## => Paginate
